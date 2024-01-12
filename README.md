@@ -1,8 +1,8 @@
 # Nexus / Next.js / Prisma / GraphQL Example
 
-I was looking for a good example of a fullstack app using Nexus, Next.js, Prisma, and GraphQL. I couldn't an up to date one, so I built this, heavily inspired by [Nexus' NextJS adoption guide](https://nexusjs.org/docs/adoption-guides/nextjs-users).
+Simple example combining Nexus, Next.js, Prisma, and GraphQL. Heavily inspired by [Nexus' NextJS adoption guide](https://nexusjs.org/docs/adoption-guides/nextjs-users).
 
-⚠️ I couldn't get it to work with NextJS's App Router, it only works with the page router for now.
+⚠️ It currently doesn't work with NextJS's App Router, it only works with the pages router.
 
 ## Getting Started
 
