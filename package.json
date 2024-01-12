@@ -1,12 +1,10 @@
 {
-  "name": "nexus-example-nextjs",
+  "name": "nexus-nextjs-prisma-example",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "nexus:gen": "ts-node --transpile-only --compiler-options '{\"module\":\"CommonJS\"}' schema"
+    "start": "next start"
   },
   "dependencies": {
     "@prisma/client": "^5.8.0",
@@ -26,8 +24,5 @@
     "prisma": "^5.8.0",
     "typescript": "^5"
   },
-  "keywords": [
-    "beginner"
-  ],
-  "description": "https://nxs.li/adoption-guides/nextjs-users"
+  "description": "A simple example integrating Nexus, NextJS, and Prisma"
 }
